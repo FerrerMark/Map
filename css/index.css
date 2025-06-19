@@ -1,0 +1,89 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #ffffff;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #1f6feb;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1158c7;
+    }
+
+    #show {
+      margin-top: 20px;
+      background-color: #1e1e1e;
+      padding: 15px;
+      border-radius: 8px;
+      max-width: 400px;
+      border: 1px solid #333;
+    }
+
+    #map {
+      height: 300px;
+      width: 47%;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    .weather {
+        background-color: #00000073;
+        height: 300px;
+        width: 47%;
+        border-radius: 15px;
+        color: #ffffff;
+        padding: 1px 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .weather img {
+      vertical-align: middle;
+    }
+
+    .container {
+        margin: 12px 0 0 9px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ccontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 9px;
+    }
+
+    input#input{
+      margin-right: 0px;
+    }
+
+    label {
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    input#input, button#search {
+        height: 34px;
+        margin: 7px 0;
+        border-radius: 4px;
+    }
+
+    
